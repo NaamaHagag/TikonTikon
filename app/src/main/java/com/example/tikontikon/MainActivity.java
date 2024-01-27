@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn1=(Button) findViewById(R.id.button);
+        btn1=(Button) findViewById(R.id.btn1);
         btn1.setText("Click me");
         btn1.setTextSize(35);
         btn1.setTextColor(Color.BLUE);
@@ -30,7 +30,4 @@ public class MainActivity extends AppCompatActivity {
             btn1.setText("BOOM!");
         }
     }
-
-
-}
 }
